@@ -19,4 +19,4 @@ def caesar_cipher(string, num)
   new_arr.join('')
 end
 
-p caesar_cipher('Hola como estaz', 5)
+p caesar_cipher('y', 5)
