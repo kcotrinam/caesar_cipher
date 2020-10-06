@@ -18,6 +18,6 @@ describe '#caesar_cipher' do
   end
 
   it 'When given a long string' do
-    expect(caesar_cipher('Hello my name is', 5)).to eql('Mjqqt r sfrj nx')
+    expect(caesar_cipher('Hello! my name is', 5)).to eql('Mjqqt! rd sfrj nx')
   end
 end
